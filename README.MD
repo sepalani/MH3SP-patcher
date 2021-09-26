@@ -10,7 +10,7 @@ setup the proper redirection.**
 
 ## Riivolution patcher
 ### Requirements
- - A real Wii capable or reading discs
+ - A real Wii capable of reading discs
  - A SD card with the Riivolution patches
 
 ### How-to
