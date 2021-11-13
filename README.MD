@@ -34,6 +34,43 @@ and extract it.
    * Select `Open Riivolution XML...` and browse to the `MH3SP.xml` file.
  - When the patch is loaded, click on the `Start` button to launch the game.
 
+![image](https://user-images.githubusercontent.com/7890055/141628618-89b7814e-0917-4e60-9e51-b3d9b21f0cb9.png)
+![image](https://user-images.githubusercontent.com/7890055/141629012-ca09e592-3930-4416-b71a-7614abd5221c.png)
+
+You might also need to add the following entries to your `hosts` file
+to redirect the traffic:
+```
+# Nintendo WFC
+127.0.0.1 gpcm.gs.nintendowifi.net
+127.0.0.1 gpsp.gs.nintendowifi.net
+127.0.0.1 naswii.nintendowifi.net
+127.0.0.1 nas.nintendowifi.net
+127.0.0.1 gamestats.gs.nintendowifi.net
+127.0.0.1 gamestats2.gs.nintendowifi.net
+127.0.0.1 wiinat.available.gs.nintendowifi.net
+127.0.0.1 wiinat.natneg1.gs.nintendowifi.net
+127.0.0.1 wiinat.natneg2.gs.nintendowifi.net
+127.0.0.1 wiinat.natneg3.gs.nintendowifi.net
+# Monster Hunter 3 (JAP)
+127.0.0.1 monhunter3wii.gamestats.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.gamestats2.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.available.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.natneg1.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.natneg2.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.natneg3.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.master.gs.nintendowifi.net
+127.0.0.1 monhunter3wii.ms16.gs.nintendowifi.net
+# Monster Hunter 3 (EU/US)
+127.0.0.1 mh3uswii.available.gs.nintendowifi.net
+127.0.0.1 mh3uswii.natneg1.gs.nintendowifi.net
+127.0.0.1 mh3uswii.natneg2.gs.nintendowifi.net
+127.0.0.1 mh3uswii.natneg3.gs.nintendowifi.net
+127.0.0.1 mh3uswii.master.gs.nintendowifi.net
+127.0.0.1 mh3uswii.gamestats.gs.nintendowifi.net
+127.0.0.1 mh3uswii.gamestats2.gs.nintendowifi.net
+127.0.0.1 mh3uswii.ms1.gs.nintendowifi.net
+```
+
 ## Manual patching
 A really rough alternative is to patch your game manually, as explained in the
 [MH3SP wiki](https://github.com/sepalani/MH3SP/wiki):
