@@ -52,7 +52,15 @@
 
     <!-- Patch Wii Shop check -->
     <patch id="patch-ec">
+        <memory original="806DBDB02C030000418200084BFFB5FC386000004E800020"
+                value="60000000600000006000000060000000386000014E800020" align="4" search="true" />
         <memory original="806DBDB02C030000418200084BFFB5EC386000004E800020"
                 value="60000000600000006000000060000000386000014E800020" align="4" search="true" />
+        <memory original="9421FFD07C0802A690010034396100304BF722F9"
+                value="600000006000000060000000386000004E800020" align="4" search="true" />
+        <memory original="9421FFC07C0802A690010044396100404BF720FD"
+                value="600000006000000060000000386000004E800020" align="4" search="true" />
+        <memory original="9421FFF07C0802A63C608082900100148083B6A02C040000"
+                value="60000000600000006000000060000000386000004E800020" align="4" search="true" />
     </patch>
 </wiidisc>
