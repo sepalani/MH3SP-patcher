@@ -32,7 +32,8 @@ and extract it.
 `Start with Riivolution Patches`.
  - If the Riivolution patch wasn't extracted to Dolphin's Riivolution folder:
    * Select `Open Riivolution XML...` and browse to the `MH3SP.xml` file.
- - When the patch is loaded, click on the `Start` button to launch the game.
+ - If you're playing the **Japanese version**, enable `Patch EC check`.
+ - Click on the `Start` button to launch the game.
 
 ![image](https://user-images.githubusercontent.com/7890055/141628618-89b7814e-0917-4e60-9e51-b3d9b21f0cb9.png)
 ![image](https://user-images.githubusercontent.com/7890055/141629012-ca09e592-3930-4416-b71a-7614abd5221c.png)
