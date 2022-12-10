@@ -1,0 +1,8 @@
+<!-- Replace `https://naswii.nintendowifi.net/ac` -->
+<memory offset="0x80630060" value="687474703A2F2F6E61737769692E6E696E74656E646F776966692E6E65742F616300"/>
+
+<!-- Replace `https://naswii.nintendowifi.net/pr` -->
+<memory offset="0x806300e0" value="687474703A2F2F6E61737769692E6E696E74656E646F776966692E6E65742F707200"/>
+
+<!-- Replace the SSL-pinned certificate -->
+<memory offset="0x80571ea0" valuefile="ca.der"/>
