@@ -1,0 +1,23 @@
+<!-- Replace `https://naswii.nintendowifi.net/ac` -->
+<memory offset="0x80729c38" value="687474703A2F2F6E61737769692E6E696E74656E646F776966692E6E65742F616300"/>
+
+<!-- Replace `https://naswii.nintendowifi.net/pr` -->
+<memory offset="0x80729cb8" value="687474703A2F2F6E61737769692E6E696E74656E646F776966692E6E65742F707200"/>
+
+<!-- Replace the SSL-pinned certificate -->
+<memory offset="0x8063ddc0" valuefile="ca.der"/>
+
+<!-- Patch `NetworkWiiMediator::isECConfig` -->
+<memory offset="0x803f7fb4" value="60000000600000006000000060000000386000014e800020"/>
+
+<!-- Patch `NetworkWiiMediator::isECTicket` -->
+<memory offset="0x803f7fcc" value="60000000600000006000000060000000386000014e800020"/>
+
+<!-- Patch `EC_Init` -->
+<memory offset="0x804e2088" value="600000006000000060000000386000004e800020"/>
+
+<!-- Patch `EC_SetParameter` -->
+<memory offset="0x804e2278" value="600000006000000060000000386000004e800020"/>
+
+<!-- Patch `EC_GetIsSyncNeeded` -->
+<memory offset="0x804e35d4" value="600000006000000060000000386000004e800020"/>

@@ -2,7 +2,8 @@
 
 The goal of this repository is to provide different ways to patch the game. The
 users will pick the one they prefer. Currently, this repository provides:
- - Riivolution patcher
+ - Riivolution patcher _(for emulator and disc users)_
+ - ISO patcher _(for USB loader users)_
 
 **This repository only provides patching mechanisms, not the servers you have
 to run to play online. So you still have to run the servers on your machine and
@@ -72,8 +73,18 @@ to redirect the traffic:
 127.0.0.1 mh3uswii.ms1.gs.nintendowifi.net
 ```
 
+## ISO patcher
+The ISO patcher is a set of scripts to patch disc images directly. Just put
+the game image in the `iso-patcher` folder and run the `patch-images` script
+to generate a patched image under the `mh3sp-images` directory.
+
 ## Manual patching
 A really rough alternative is to patch your game manually, as explained in the
 [MH3SP wiki](https://github.com/sepalani/MH3SP/wiki):
  - Patch the game's `main.dol` certificate.
  - Patch the game to use Wiimmfi or AltWFC.
+
+## Licensing
+This project is licensed under the AGPLv3. The `iso-patcher` is licensed under
+GPLv2 or any later version since it is based on Wiimm's ISO Tools and Wiimmfi
+ISO Patcher.
