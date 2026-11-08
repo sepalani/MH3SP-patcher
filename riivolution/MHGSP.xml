@@ -52,7 +52,17 @@
 
     <!-- Patch Wii Shop check -->
     <patch id="patch-ec">
-        <memory original="806DBDB02C030000418200084BFFB5EC386000004E800020"
+        <!-- MHG (ROMJ08) equivalents of the MH3 EC sites. Thunks at 0x804805A4 / 0x804805BC -->
+        <memory original="806D26502C0300004182000848002F44386000004E800020"
                 value="60000000600000006000000060000000386000014E800020" align="4" search="true" />
+        <memory original="806D26502C0300004182000848002F34386000004E800020"
+                value="60000000600000006000000060000000386000014E800020" align="4" search="true" />
+        <!-- EC functions at 0x803641A0 / 0x80364390 / 0x80365708 -->
+        <memory original="9421FFD07C0802A690010034396100304BF3CF05"
+                value="600000006000000060000000386000004E800020" align="4" search="true" />
+        <memory original="9421FFC07C0802A690010044396100404BF3CD09"
+                value="600000006000000060000000386000004E800020" align="4" search="true" />
+        <memory original="9421FFF07C0802A63C60807D9001001480834F382C040000"
+                value="60000000600000006000000060000000386000004E800020" align="4" search="true" />
     </patch>
 </wiidisc>
